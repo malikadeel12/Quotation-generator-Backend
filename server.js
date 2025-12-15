@@ -43,7 +43,7 @@ app.get('/api/health', (req, res) => {
 
 // MongoDB Connection
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/nexlead_quotations';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://acursor96_db_user:x3ELOXMYxoyQkEls@cluster0.tv742mt.mongodb.net/?appName=Cluster0';
 
 mongoose.connect(MONGODB_URI)
   .then(() => {
